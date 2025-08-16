@@ -7,7 +7,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 # Load dataset (Kaggle's "Fake and Real News Dataset")
 df = pd.read_csv("news.csv")  # CSV must have 'text' and 'label' columns
 
-# Split data
 X_train, X_test, y_train, y_test = train_test_split(df['text'], df['label'], test_size=0.2, random_state=42)
 
 # Vectorize text
