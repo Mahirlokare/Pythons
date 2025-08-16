@@ -1,2 +1,4 @@
-pandas
+python Libraries to install before running the Fake News Detection Code
+
+Python Codepandas
 scikit-learn
