@@ -1,3 +1,5 @@
+python Libraries to install before running the stock Predictor Python Code
+
 yfinance
 scikit-learn
 pandas
