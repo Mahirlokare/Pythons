@@ -15,14 +15,14 @@ x_test = x_test / 255.0
 y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
 
-# Build model
+# Build any of model of your choice
 model = Sequential([
     Flatten(input_shape=(28, 28)),
     Dense(128, activation='relu'),
     Dense(10, activation='softmax')
 ])
 
-# Compile model
+# Compile the given model
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Train model
